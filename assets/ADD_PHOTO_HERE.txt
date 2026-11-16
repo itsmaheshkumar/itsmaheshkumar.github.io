@@ -1,0 +1,8 @@
+HOW TO ADD YOUR PHOTO
+
+1. Save your portrait as profile-photo.jpg in this assets folder.
+2. Open site-config.js and change photo: "" to photo: "assets/profile-photo.jpg".
+3. Upload both files to your portfolio site. The reserved photo frame will be filled automatically.
+
+Recommended: portrait photo, 4:5 ratio, at least 800 x 1000 pixels.
+Do not add a photo until you want it public.

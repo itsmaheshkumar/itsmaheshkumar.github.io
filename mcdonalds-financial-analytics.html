@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <meta name="description" content="McDonald's Financial Analytics portfolio project: revenue, earnings, EPS, margins, regression, and illustrative financial scenarios." />
+  <title>McDonald's Financial Analytics — Portfolio Case Study</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="site-config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="case-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">D<span class="brand-dot">.</span></span><span>portfolio<span class="muted">/</span></span></a><nav class="nav nav-case"><a href="index.html#projects">← All projects</a><a data-link="mcdonaldsGitHub" href="#" target="_blank" rel="noopener noreferrer">Source code ↗</a><a data-link="mcdonaldsDemo" href="#" target="_blank" rel="noopener noreferrer">Live app ↗</a></nav></div></header>
+  <main id="main">
+    <section class="case-hero container">
+      <a class="back-link" href="index.html#projects">← Back to portfolio</a>
+      <span class="section-kicker">FINANCIAL ANALYTICS / CASE STUDY</span>
+      <h1>McDonald's <em>Financial Analytics.</em></h1>
+      <p class="case-intro">Turning historical revenue, earnings, profitability, and share performance into an explorable business dashboard and clearly labeled scenarios.</p>
+      <div class="case-tags"><span>Python</span><span>Pandas</span><span>Streamlit</span><span>Chart.js</span><span>Linear Regression</span></div>
+      <div class="case-actions"><a class="button primary" data-link="mcdonaldsDemo" href="#" target="_blank" rel="noopener noreferrer">Open live dashboard ↗</a><a class="button secondary" data-link="mcdonaldsGitHub" href="#" target="_blank" rel="noopener noreferrer">View GitHub repository ↗</a></div>
+    </section>
+    <section class="container case-data-strip" aria-label="Project facts"><div><strong>2002–24</strong><span>historical years</span></div><div><strong>6</strong><span>financial KPI cards</span></div><div><strong>10</strong><span>interactive chart panels</span></div><div><strong>2025–27</strong><span>scenario horizon</span></div></section>
+    <section class="case-content container"><div class="case-main">
+      <section class="case-block"><span class="section-kicker">BUSINESS QUESTION</span><h2>What does long-run financial performance reveal?</h2><p>The dashboard brings key annual metrics into one interactive view. Users can compare revenue and earnings, inspect changes in EPS and margins, and explore how profitability evolved across different business periods.</p></section>
+      <section class="case-block"><span class="section-kicker">PROJECT WORKFLOW</span><h2>From financial statements to an interactive app.</h2><div class="pipeline"><div><span>01</span><strong>Prepare</strong><small>Clean financial data and calculate growth metrics</small></div><div><span>02</span><strong>Analyze</strong><small>Summarize revenue, earnings, EPS and margins</small></div><div><span>03</span><strong>Explore</strong><small>Compare trends and regression relationships</small></div><div><span>04</span><strong>Project</strong><small>Show growth-based scenarios and limitations</small></div><div><span>05</span><strong>Publish</strong><small>Deploy interactive charts on Streamlit</small></div></div></section>
+      <section class="case-block"><span class="section-kicker">DASHBOARD FEATURES</span><h2>What can visitors explore?</h2><ul class="clean-list"><li>Year-range filters and six headline KPIs, including total revenue, cumulative earnings, revenue CAGR, and EPS.</li><li>Revenue and earnings trends, annual revenue growth, profit-margin trends, and earnings-growth gaps.</li><li>Revenue versus earnings scatterplot, correlation, and linear regression summary.</li><li>Illustrative 2025–2027 revenue and earnings scenarios, alongside the historical series.</li><li>A Streamlit data-explorer page for reviewing the underlying cleaned CSV data.</li></ul></section>
+      <section class="case-block"><span class="section-kicker">METHODS AND LIMITATIONS</span><h2>Interpret forecasts with care.</h2><p>The forward curves are <strong>illustrative fixed-rate projections</strong>: revenue growth is assumed to be 2.4% annually and earnings growth 4% annually. They are not the output of a fitted ARIMA model. Their shaded ranges are approximate and should not be presented as calibrated 95% confidence or prediction intervals.</p><p>The cleaned dataset contains years through 2024, whereas the original uploaded financial-statement file ended in 2022. The additional years should be checked against the original annual reports before claiming every record is independently verified.</p><p>This is an educational portfolio project, not investment advice.</p></section>
+      <section class="case-block"><span class="section-kicker">DELIVERY</span><h2>A live portfolio application.</h2><p>The published Streamlit app presents the existing HTML/Chart.js dashboard and a financial data explorer. Visitors can interact with the analysis and review the source code.</p><div class="case-actions"><a class="button primary" data-link="mcdonaldsDemo" href="#" target="_blank" rel="noopener noreferrer">Launch app ↗</a><a class="button secondary" data-link="mcdonaldsGitHub" href="#" target="_blank" rel="noopener noreferrer">Review source code ↗</a></div></section>
+    </div><aside class="case-aside"><div class="aside-card"><span class="section-kicker">AT A GLANCE</span><h3>Project facts</h3><dl><dt>Focus</dt><dd>Financial performance &amp; business reporting</dd><dt>Years</dt><dd>2002–2024 cleaned dataset</dd><dt>KPIs</dt><dd>Revenue, earnings, EPS, growth and margins</dd><dt>Analysis</dt><dd>Trends, correlations &amp; regression</dd><dt>Scenarios</dt><dd>Fixed-rate 2025–2027 projections</dd><dt>Technology</dt><dd>Python, Pandas, HTML, Chart.js, Streamlit</dd></dl><div class="aside-note">Scenarios are illustrative; they are not backtested predictive model results.</div></div></aside></section>
+    <section class="container case-end"><span class="section-kicker">EXPLORE</span><h2>See the analysis in action.</h2><a class="button primary" data-link="mcdonaldsDemo" href="#" target="_blank" rel="noopener noreferrer">Open live Streamlit app ↗</a><a class="button secondary" href="index.html#projects">Back to projects →</a></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span><strong data-text="name">Mahesh</strong> · Data / Business Analytics</span><span>Built with curiosity. <span id="year"></span></span><a href="index.html">Portfolio home ↑</a></div></footer>
+</body>
+</html>
