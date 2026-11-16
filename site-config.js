@@ -24,5 +24,5 @@ window.PORTFOLIO = {
   mcdonaldsGitHub: "https://github.com/itsmaheshkumar/mcdonalds-financial-analytics",
   // Previous demo link showed an access/not-found message after redeployment.
   // Copy the current WORKING public URL from Streamlit Community Cloud > My apps.
-  mcdonaldsDemo: ""
+  mcdonaldsDemo: "https://mcdonalds-financial-analytics-w2sglhgzz5vpvilie6bj5z.streamlit.app"
 };
